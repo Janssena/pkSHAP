@@ -1,17 +1,19 @@
 [tool.poetry]
 name = "pkshap"
 version = "0.1.0"
-description = ""
+description = "Repository for 'Application of SHAP values for inferring the optimal functional form of covariates in pharmacokinetic modeling'."
 authors = ["Janssena <alexanderjanssen@live.com>"]
 license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 matplotlib = "^3.5.2"
 shap = "^0.41.0"
 xgboost = "^1.6.1"
 numpy = "^1.23.0"
 scikit-learn = "^1.1.1"
+pandas = "^1.4.3"
+joblib = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 
